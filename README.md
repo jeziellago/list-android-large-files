@@ -1,5 +1,7 @@
 # List Android project large files
-Script to list large classes in Android project `(default >= 300 lines)`.
+Script to list large classes in Android project `(default >= 300 lines)`
+> Large classes in projects can be hard to maintain, often contains code smells and lacks refactoring. This script helps you to find theses large classes.
+.
 ```python
 python list_large_files.py --project [PROJECT_DIR]
 ```
